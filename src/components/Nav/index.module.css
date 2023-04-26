@@ -1,0 +1,23 @@
+.nav{
+  margin-bottom: 62px;
+}
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.Item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.37;
+  transition: var(--transition);
+}
+
+
+
+@media screen and (min-width: 1440px) {
+  .List {
+    gap: 54px;
+  }
+}

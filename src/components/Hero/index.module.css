@@ -1,0 +1,25 @@
+.hero {
+  background-image: url(../../images/images/home/showcase.jpg);
+  position: relative;
+  background-repeat: no-repeat, no-repeat;
+  height: 533px;
+  width: 320px;
+}
+.tittle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--white);
+  width: 241px;
+  margin-bottom: 16px;
+}
+.avter_tittle {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  color: var(--white);
+  width: 280px;
+  margin-bottom: 24px;
+}

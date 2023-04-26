@@ -1,0 +1,19 @@
+.Logo{
+    margin-bottom: 16px;
+}
+.img {
+  width: 39px;
+  height: 35px;
+  background-color: transparent;
+  margin-right: 8px;
+}
+.finance {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  margin-right: 8px;
+  color: var(--green);
+}
+.leader {
+  color: var(--white);
+}
