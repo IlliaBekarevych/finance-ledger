@@ -7,7 +7,7 @@ import s from './index.module.css';
 
 export default function Hero() {
   return (
-    <div className={s.hero}>
+    <section className={s.hero}>
       <Container>
         <Logo />
         <Nav />
@@ -17,6 +17,6 @@ export default function Hero() {
         </h3>
         <Button>Read More</Button>
       </Container>
-    </div>
+    </section>
   );
 }

@@ -1,9 +1,10 @@
 .hero {
-  background-image: url(../../images/images/home/showcase.jpg);
-  position: relative;
-  background-repeat: no-repeat, no-repeat;
-  height: 533px;
-  width: 320px;
+  padding-top: 22px;
+  padding-bottom: 104px;
+  background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../../images/images/home/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .tittle {
   font-weight: 600;
@@ -13,6 +14,8 @@
   color: var(--white);
   width: 241px;
   margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .avter_tittle {
   font-weight: 400;
@@ -22,4 +25,6 @@
   color: var(--white);
   width: 280px;
   margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }

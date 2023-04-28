@@ -1,21 +1,16 @@
 import React from 'react';
 import s from './index.module.css';
 
-export default function Button({
-  wd = 'auto',
-  mg = 0,
-  active = false,
-  children,
-  onClick,
-}) {
+export default function Button({ active = false, children, onClick }) {
   return (
-    <button
-      type="button"
-      className={active ? s.Active : s.Btn}
-      style={{ width: wd, margin: mg }}
-      onClick={onClick}
-    >
-      {children}
-    </button>
+    <div className={s.button}>
+      <button
+        type="button"
+        className={active ? s.Active : s.Btn}
+        onClick={onClick}
+      >
+        {children}
+      </button>
+    </div>
   );
 }
