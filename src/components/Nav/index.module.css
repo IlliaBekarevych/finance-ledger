@@ -1,11 +1,17 @@
-.nav{
+.nav {
   margin-bottom: 62px;
+  @media screen and (min-width: 768px){
+    margin-left: 73px;
+  }
 }
 .List {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
 }
 .Item {
   font-size: 16px;
@@ -13,8 +19,14 @@
   line-height: 1.37;
   transition: var(--transition);
 }
-
-
+.Item::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: var(--green);
+  border-radius: 2px;
+  display: block;
+}
 
 @media screen and (min-width: 1440px) {
   .List {

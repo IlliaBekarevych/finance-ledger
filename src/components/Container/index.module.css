@@ -1,15 +1,15 @@
 .Container {
 	position: relative;
 	padding: 0 16px;
-	max-width: 375px;
+	max-width: 767px;
 	margin: 0 auto;
 	height: auto;
 }
 
 @media screen and (min-width: 768px) {
 	.Container {
-		padding: 0 60px;
-		max-width: 1024px;
+		padding: 0 32px;
+		max-width: 1359px;
 	}
 }
 @media screen and (min-width: 1360px) {

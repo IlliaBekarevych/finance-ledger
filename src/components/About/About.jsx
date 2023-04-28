@@ -1,8 +1,7 @@
-import React from 'react';
 import s from './index.module.css';
 import teem from '../../images/images/home/people.jpg';
-import Button from 'components/Button/Button';
 import Container from 'components/Container/Container';
+import Btn from 'components/Btn/Btn';
 
 export default function About() {
   return (
@@ -18,7 +17,7 @@ export default function About() {
             harum illum dolore explicabo ab dolores itaque rerum temporibus
             doloribus iste maiores deleniti?
           </p>
-          <Button>Read More</Button>
+          <Btn>Read More</Btn>
         </div>
       </Container>
     </section>

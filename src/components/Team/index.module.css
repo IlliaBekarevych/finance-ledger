@@ -1,0 +1,41 @@
+.team {
+  background-color: var(--white);
+  color: var(--grey);
+  text-align: center;
+  padding-bottom: 20px;
+}
+.pre_title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.37;
+  margin-bottom: 16px;
+  padding-top: 72px;
+}
+.title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.37;
+  margin-bottom: 24px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.37;
+  margin-bottom: 63px;
+  width: 280px;
+}
+.img {
+  margin-bottom: 16px;
+}
+.team_title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+.team_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.37;
+  margin-bottom: 30px;
+}
