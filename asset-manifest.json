@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/finance-ledger/static/css/main.d54245bf.css",
-    "main.js": "/finance-ledger/static/js/main.4234907a.js",
+    "main.css": "/finance-ledger/static/css/main.80e4c733.css",
+    "main.js": "/finance-ledger/static/js/main.4f0a44fa.js",
     "static/media/showcase.jpg": "/finance-ledger/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people.jpg": "/finance-ledger/static/media/people.f32f74cc55eb8b3518b7.jpg",
+    "static/media/cases4.jpg": "/finance-ledger/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
+    "static/media/blog.jpg": "/finance-ledger/static/media/blog.7a77e4040b289e838659.jpg",
+    "static/media/person1.jpg": "/finance-ledger/static/media/person1.fd246fc517ebc04c1f67.jpg",
+    "static/media/cases1.jpg": "/finance-ledger/static/media/cases1.64dcfe4d42845316bcf2.jpg",
+    "static/media/cases7.jpg": "/finance-ledger/static/media/cases7.0c2434529d95dc5103d7.jpg",
+    "static/media/contact.jpg": "/finance-ledger/static/media/contact.df3181530910b96adc57.jpg",
+    "static/media/person2.jpg": "/finance-ledger/static/media/person2.6d1f75facd2adf912ada.jpg",
+    "static/media/cases3.jpg": "/finance-ledger/static/media/cases3.3758803cff01fbec967c.jpg",
+    "static/media/person3.jpg": "/finance-ledger/static/media/person3.9f444ad1693a0e346d5f.jpg",
+    "static/media/cases5.jpg": "/finance-ledger/static/media/cases5.936cb2fcbdc950fb047d.jpg",
+    "static/media/cases2.jpg": "/finance-ledger/static/media/cases2.855b02a74ffed4538fb1.jpg",
+    "static/media/lg.svg?io9a6k": "/finance-ledger/static/media/lg.09cd8e9be7081f216644.svg",
+    "static/media/lg.woff?io9a6k": "/finance-ledger/static/media/lg.356a0e9cb064c7a196c6.woff",
+    "static/media/lg.ttf?io9a6k": "/finance-ledger/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/lg.woff2?io9a6k": "/finance-ledger/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/finance-ledger/index.html",
-    "main.d54245bf.css.map": "/finance-ledger/static/css/main.d54245bf.css.map",
-    "main.4234907a.js.map": "/finance-ledger/static/js/main.4234907a.js.map"
+    "static/media/tweeter.svg": "/finance-ledger/static/media/tweeter.e455471bb1c97dccc86f2812e485d481.svg",
+    "static/media/Vector.svg": "/finance-ledger/static/media/Vector.122fc75c1c8cb5dd1157344cfb6a316f.svg",
+    "static/media/youtube.svg": "/finance-ledger/static/media/youtube.542b7e2833a9f77d921b16adcfbcccfb.svg",
+    "static/media/linkedin.svg": "/finance-ledger/static/media/linkedin.e0ecfa0bf8b08ddad4325933bf6d940e.svg",
+    "static/media/facebook.svg": "/finance-ledger/static/media/facebook.c94fbf617d44356bbcd7c11074170de0.svg",
+    "main.80e4c733.css.map": "/finance-ledger/static/css/main.80e4c733.css.map",
+    "main.4f0a44fa.js.map": "/finance-ledger/static/js/main.4f0a44fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d54245bf.css",
-    "static/js/main.4234907a.js"
+    "static/css/main.80e4c733.css",
+    "static/js/main.4f0a44fa.js"
   ]
 }
