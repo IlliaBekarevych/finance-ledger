@@ -1,4 +1,11 @@
-
 .photo {
   margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .photo {
+    width: 223px;
+    height: 148px;
+    margin-bottom: 18px;
+    margin-right: 11px;
+  }
 }

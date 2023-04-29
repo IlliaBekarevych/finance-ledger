@@ -8,7 +8,7 @@ export default function Team() {
   return (
     <section className={s.team}>
       <Container>
-        <div className={s.team_title}>
+        <div className={s.team_pre_list}>
           <h4 className={s.pre_title}>Who we are</h4>
           <h3 className={s.title}>Our Professional Team</h3>
           <p className={s.text}>

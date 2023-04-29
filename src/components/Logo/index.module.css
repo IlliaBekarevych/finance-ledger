@@ -1,7 +1,7 @@
-.Logo{
-    margin-bottom: 16px;
-    display: flex;
-    justify-content: center;
+.Logo {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .img {
   width: 39px;
@@ -12,10 +12,25 @@
 .finance {
   font-weight: 400;
   font-size: 28px;
-  line-height: 38px;
-  margin-right: 8px;
+  line-height: 1.35;
   color: var(--green);
 }
 .leader {
   color: var(--white);
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .Logo {
+    margin-bottom: 314px;
+  }
+  .finance {
+    font-size: 35px;
+    line-height: 1.37;
+  }
+  .img {
+    margin-right: 9px;
+  }
+  .leader {
+    margin-left: 0;
+  }
 }

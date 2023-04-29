@@ -4,7 +4,6 @@
 }
 .about_text {
   padding-top: 79px;
-  
 }
 .pre_title {
   font-weight: 400;
@@ -24,4 +23,33 @@
   line-height: 1.37;
   margin-bottom: 24px;
   width: 279px;
+}
+@media screen and (min-width: 768px) {
+  .about {
+    padding-bottom: 0;
+  }
+  .about_list {
+    display: flex;
+  }
+  .img {
+    width: 368px;
+    object-fit: cover;
+  }
+  .about_text {
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+  .pre_title {
+    font-size: 18px;
+    line-height: 1.38;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 1.38;
+    width: 336px;
+  }
 }

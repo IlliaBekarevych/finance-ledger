@@ -7,7 +7,7 @@
   font-size: 32px;
   line-height: 1.5;
   color: var(--grey);
-  margin-top: 51px;
+  padding-top: 51px;
   margin-bottom: 69px;
 }
 .form {
@@ -36,4 +36,34 @@
   margin-top: 24px;
   width: 155px;
   height: 57px;
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    background-color: var(--white);
+  }
+  .img {
+    width: 368px;
+    object-fit: cover;
+  }
+  .contact_list {
+    background-color: #f4f4f4;
+    display: flex;
+  }
+  .title {
+    padding-top: 32px;
+    font-size: 40px;
+    line-height: 1.35;
+    margin-bottom: 24px;
+  }
+  .form {
+    gap: 16px;
+    padding-bottom: 33px;
+  }
+  .input {
+    width: 336px;
+    height: 57px;
+  }
+  .btn {
+    margin-top: 8px;
+  }
 }

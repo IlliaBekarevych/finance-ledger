@@ -4,12 +4,15 @@
   text-align: center;
   padding-bottom: 20px;
 }
+.team_pre_list {
+  padding-top: 72px;
+  padding-bottom: 63px;
+}
 .pre_title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.37;
   margin-bottom: 16px;
-  padding-top: 72px;
 }
 .title {
   font-weight: 400;
@@ -21,8 +24,9 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.37;
-  margin-bottom: 63px;
   width: 280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .img {
   margin-bottom: 16px;
@@ -38,4 +42,43 @@
   font-size: 16px;
   line-height: 1.37;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 40px;
+  }
+  .team_pre_list {
+    padding-top: 50px;
+    padding-bottom: 24px;
+  }
+  .pre_title {
+    font-size: 20px;
+    line-height: 1.65;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 1.35;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 1.38;
+    width: 641px;
+  }
+  .team_list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img {
+    width: 223px;
+    height: 148px;
+  }
+  .team_title {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .team_text {
+    font-size: 18px;
+    line-height: 1.38;
+    margin-bottom: 0px;
+  }
 }

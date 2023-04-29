@@ -9,13 +9,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (min-width: 768px) {
-    padding-top: 16px;
-    padding-bottom: 378px;
-  }
 }
 .tittle {
   font-weight: 600;
+  font-style: normal;
   font-size: 40px;
   line-height: 1.35;
   text-align: center;
@@ -35,4 +32,21 @@
   margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 16px;
+    padding-bottom: 378px;
+  }
+  .tittle {
+    font-size: 55px;
+    line-height: 1.36;
+    width: 533px;
+    margin-bottom: 16px;
+  }
+  .avter_tittle {
+    font-size: 40px;
+    line-height: 1.2;
+    width: 523px;
+  }
 }

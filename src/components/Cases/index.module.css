@@ -27,3 +27,21 @@
   color: var(--grey);
   margin-bottom: 31px;
 }
+@media screen and (min-width: 768px) {
+  .cases {
+    padding-top: 48px;
+  }
+  .pre_title {
+    font-size: 18px;
+    line-height: 1.38;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 1.35;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 1.38;
+    margin-bottom: 30px;
+  }
+}
