@@ -3,6 +3,7 @@ import Container from 'components/Container/Container';
 import person1 from '../../images/images/team/person1.jpg';
 import person2 from '../../images/images/team/person2.jpg';
 import person3 from '../../images/images/team/person3.jpg';
+import Socials from 'components/Socials/Socials';
 
 export default function Team() {
   return (
@@ -19,6 +20,9 @@ export default function Team() {
         <ul className={s.team_list}>
           <li className={s.item}>
             <img src={person1} alt="People" className={s.img} />
+            <div className={s.overlay}>
+              <Socials />
+            </div>
             <div className={s.text_list}>
               <h3 className={s.team_title}>John Doe</h3>
               <p className={s.team_text}>President</p>
