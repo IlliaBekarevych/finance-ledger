@@ -53,3 +53,16 @@
     width: 336px;
   }
 }
+
+@media screen and (min-width: 1360px){
+  .img {
+    width: 670px;
+  }
+  .about_text {
+    padding-top: 80px;
+    padding-bottom: 86px;
+  }
+  .text {
+    width: 642px;
+  }
+}

@@ -82,3 +82,16 @@
     margin-bottom: 0px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .team {
+    padding-bottom: 88px;
+  }
+  .team_pre_list {
+    padding-top: 80px;
+    padding-bottom: 36px;
+  }
+  .img {
+    width: 421px;
+    height: 287px;
+  }
+}

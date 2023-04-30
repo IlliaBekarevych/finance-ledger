@@ -9,3 +9,9 @@
     margin-right: 11px;
   }
 }
+@media screen and (min-width: 1360px){
+  .photo {
+    width: 421px;
+    height: 282px;
+  }
+}

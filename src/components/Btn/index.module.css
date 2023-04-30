@@ -11,3 +11,7 @@
   line-height: 1.37;
   transition: var(--transition);
 }
+.Btn:hover {
+  background: #f4f4f4;
+  color: #0284D0;
+}

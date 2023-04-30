@@ -14,4 +14,9 @@
   font-size: 18px;
   line-height: 1.38;
   transition: var(--transition);
+  display: flex;
+  align-items: center;
+}
+.Btn:hover {
+  background: #2ebf4f;
 }

@@ -1,5 +1,8 @@
-.list{
-    @media screen and (min-width: 768px){
-        display: flex;
-    }
+.list {
+  position: fixed;
+  top: 32px;
+  z-index: 5;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }

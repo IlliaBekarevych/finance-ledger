@@ -45,3 +45,8 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .cases {
+    padding-bottom: 62px;
+  }
+}

@@ -37,6 +37,9 @@
   width: 155px;
   height: 57px;
 }
+.btn:hover {
+  background: #2ebf4f;
+}
 @media screen and (min-width: 768px) {
   .contact {
     background-color: var(--white);
@@ -65,5 +68,20 @@
   }
   .btn {
     margin-top: 8px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .contact {
+    padding-bottom: 0;
+  }
+  .img {
+    width: 670px;
+  }
+  .title {
+    padding-top: 56px;
+    margin-bottom: 31px;
+  }
+  .input {
+    width: 642px;
   }
 }

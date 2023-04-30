@@ -2,8 +2,8 @@
   padding-top: 22px;
   padding-bottom: 104px;
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
     url(../../images/images/home/showcase.jpg);
   background-repeat: no-repeat;
@@ -21,6 +21,7 @@
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 160px;
 }
 .avter_tittle {
   font-weight: 400;
@@ -33,6 +34,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.hero_btn{
+  width: 9px;
+  height: 18px;
+  margin-right: 8px;
+}
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 16px;
@@ -43,10 +49,25 @@
     line-height: 1.36;
     width: 533px;
     margin-bottom: 16px;
+    padding-top: 378px;
   }
   .avter_tittle {
     font-size: 40px;
     line-height: 1.2;
     width: 523px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 270px;
+  }
+  .tittle{
+    padding-top: 272px;
+  }
+  .avter_tittle {
+    font-size: 40px;
+    line-height: 1.35;
+    width: 800px;
   }
 }
