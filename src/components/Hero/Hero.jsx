@@ -5,7 +5,7 @@ import s from './index.module.css';
 
 export default function Hero() {
   return (
-    <section className={s.hero}>
+    <section className={s.hero} id='home'>
       <Container>
         <h1 className={s.tittle}>The Sky Is The Limit</h1>
         <h3 className={s.avter_tittle}>

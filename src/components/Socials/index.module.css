@@ -1,27 +1,24 @@
 .socials_list {
   display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 15px;
   margin-bottom: 12px;
-}
-.item:hover svg {
-  fill: #fff;
-  opacity: 0.7;
-}
-.item:not(:last-child) {
-  @media screen and (min-width: 760px) and (max-width: 1359px) {
-    margin-right: 15px;
+  @media screen and (min-width: 1360px) {
+    gap: 25px;
   }
-}
-.item:not(:last-child) {
-  margin-right: 25px;
 }
 
 .svg {
-  fill: #fff;
-  transition: all 150ms;
+  width: 35px;
+  height: 35px;
+  fill: var(--white);
   cursor: pointer;
+  @media screen and (min-width: 1360px) {
+    width: 40px;
+    height: 40px;
+  }
 }
-
 .svg:hover {
-  fill: var(--grey);
+  opacity: 0.7;
 }

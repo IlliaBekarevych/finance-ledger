@@ -5,7 +5,7 @@ import Btn from 'components/Btn/Btn';
 
 export default function Blog() {
   return (
-    <section className={s.blog}>
+    <section className={s.blog} id='blog'>
       <img src={blog} alt="Book" className={s.img} />
       <Container>
         <div className={s.blog_list}>

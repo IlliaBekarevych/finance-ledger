@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  justify-content: center;
 }
 .List {
   display: flex;
@@ -11,18 +12,12 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.37;
-  transition: var(--transition);
-  transition: border-bottom 100ms linear;
 }
-.Item:hover,
-:focus {
-  border-bottom: 3px solid var(--green);
+.Item:hover {
+  border-bottom: 2px solid var(--green);
 }
 
 @media screen and (min-width: 768px) {
-  .nav {
-    margin-left: 73px;
-  }
   .List {
     gap: 20px;
   }

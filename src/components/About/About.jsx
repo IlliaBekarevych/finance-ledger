@@ -5,7 +5,7 @@ import Btn from 'components/Btn/Btn';
 
 export default function About() {
   return (
-    <section className={s.about}>
+    <section className={s.about} id='about'>
       <div className={s.about_list}>
         <img src={teem} alt="People" className={s.img} />
         <Container>

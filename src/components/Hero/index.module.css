@@ -1,5 +1,4 @@
 .hero {
-  padding-top: 22px;
   padding-bottom: 104px;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),
@@ -41,7 +40,6 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 16px;
     padding-bottom: 378px;
   }
   .tittle {
@@ -59,7 +57,6 @@
 }
 @media screen and (min-width: 1360px) {
   .hero {
-    padding-top: 48px;
     padding-bottom: 270px;
   }
   .tittle{

@@ -1,24 +1,34 @@
 import React from 'react';
 import s from './index.module.css';
-
-export default function Nav({ toggle }) {
+import { Link } from 'react-scroll';
+export default function Nav() {
   return (
     <nav className={s.nav}>
       <ul className={s.List}>
-        <li className={s.Item} onClick={toggle}>
-          <a href="#Home">Home</a>
+        <li className={s.Item}>
+          <Link to="home" href="#home">
+            Home
+          </Link>
         </li>
-        <li className={s.Item} onClick={toggle}>
-          <a href="#About">About</a>
+        <li className={s.Item}>
+          <Link to="about" href="#About">
+            About
+          </Link>
         </li>
-        <li className={s.Item} onClick={toggle}>
-          <a href="#Cases">Cases</a>
+        <li className={s.Item}>
+          <Link to="cases" href="#Cases">
+            Cases
+          </Link>
         </li>
-        <li className={s.Item} onClick={toggle}>
-          <a href="#Blog">Blog</a>
+        <li className={s.Item}>
+          <Link to="blog" href="#Blog">
+            Blog
+          </Link>
         </li>
-        <li className={s.Item} onClick={toggle}>
-          <a href="#Contact">Contact</a>
+        <li className={s.Item}>
+          <Link to="contact" href="#Contact">
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

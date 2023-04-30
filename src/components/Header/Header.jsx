@@ -4,7 +4,7 @@ import Logo from 'components/Logo/Logo';
 import Nav from 'components/Nav/Nav';
 import { useState } from 'react';
 
-export default function Header({ navbarLinks }) {
+export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   const changeBacground = () => {
@@ -16,7 +16,7 @@ export default function Header({ navbarLinks }) {
   };
   window.addEventListener('scroll', changeBacground);
 
-  const navBg = navbar ? s.active : s.list;
+  const navBg = navbar ? s.active : s.nav;
   return (
     <section className={s.header}>
       <div className={navBg}>

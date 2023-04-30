@@ -4,7 +4,7 @@ import Container from 'components/Container/Container';
 
 export default function Contact() {
   return (
-    <section className={s.contact}>
+    <section className={s.contact} id='contact'>
       <div className={s.contact_list}>
         <img src={contact} alt="People" className={s.img} />
         <Container>

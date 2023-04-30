@@ -19,9 +19,11 @@ export default function Team() {
         </div>
         <ul className={s.team_list}>
           <li className={s.item}>
-            <img src={person1} alt="People" className={s.img} />
-            <div className={s.overlay}>
-              <Socials />
+            <div className={s.item_overlay}>
+              <img src={person1} alt="People" className={s.img} />
+              <div className={s.overlay}>
+                <Socials />
+              </div>
             </div>
             <div className={s.text_list}>
               <h3 className={s.team_title}>John Doe</h3>
@@ -29,14 +31,24 @@ export default function Team() {
             </div>
           </li>
           <li className={s.item}>
-            <img src={person2} alt="People" className={s.img} />
+            <div className={s.item_overlay}>
+              <img src={person2} alt="People" className={s.img} />
+              <div className={s.overlay}>
+                <Socials />
+              </div>
+            </div>
             <div className={s.text_list}>
               <h3 className={s.team_title}>Jane Doe</h3>
               <p className={s.team_text}>Vice President</p>
             </div>
           </li>
           <li className={s.item}>
-            <img src={person3} alt="People" className={s.img} />
+            <div className={s.item_overlay}>
+              <img src={person3} alt="People" className={s.img} />
+              <div className={s.overlay}>
+                <Socials />
+              </div>
+            </div>
             <div className={s.text_list}>
               <h3 className={s.team_title}>Steve Smith</h3>
               <p className={s.team_text}>Marketing Head</p>

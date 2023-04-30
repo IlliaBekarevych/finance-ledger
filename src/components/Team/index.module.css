@@ -28,14 +28,13 @@
   margin-right: auto;
   margin-left: auto;
 }
-.img {
-  margin-bottom: 16px;
-}
+
 .team_title {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.35;
   margin-bottom: 8px;
+  padding-top: 16px;
 }
 .team_text {
   font-weight: 400;
@@ -43,8 +42,12 @@
   line-height: 1.37;
   margin-bottom: 30px;
 }
-.overlay:hover {
-  opacity: 1;
+.item_overlay {
+  position: relative;
+  overflow: hidden;
+}
+.item_overlay:hover {
+  box-shadow: 0 10px 10px 5px rgba(36, 36, 36, 0.5);
 }
 
 .overlay {
@@ -55,12 +58,18 @@
   height: 100%;
   top: 0;
   left: 0;
-  transform: scale(0);
-  background-color: rgba(4, 4, 4, 0.6);
+  transform: scale(1.02);
+  background-color: rgba(4, 4, 4, 0.4);
   opacity: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+.overlay:hover,
+:focus {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.02);
 }
 @media screen and (min-width: 768px) {
   .team {

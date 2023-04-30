@@ -1,20 +1,17 @@
 .header {
   position: fixed;
-  top: 32px;
+  top: 0px;
   z-index: 5;
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
+  width: 100%;
 }
-.list{
-  position: fixed;
-  top: 32px;
-  z-index: 5;
+.list {
+  padding-top: 32px;
+  padding-bottom: 15px;
   @media screen and (min-width: 768px) {
     display: flex;
+    justify-content: space-between;
   }
 }
 .active {
-  padding-top: 50px;
   background-color: rgba(0, 0, 0, 0.8);
 }
